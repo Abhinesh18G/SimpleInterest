@@ -7,7 +7,7 @@ public class AppTest {
 
     @Test
     public void testSimpleInterest() {
-        assertEquals(200.0, App.calculateSI(1000, 5, 2), 0.01);
+        assertEquals(100.0, App.calculateSI(1000, 5, 2), 0.01);
     }
 
     @Test
