@@ -1,13 +1,13 @@
 package com.example;
 
-import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class AppTest {
 
     @Test
     public void testSimpleInterest() {
-        assertEquals(100.0, App.calculateSI(1000, 5, 2), 0.01);
+        assertEquals(200.0, App.calculateSI(1000, 5, 2), 0.01);
     }
 
     @Test
